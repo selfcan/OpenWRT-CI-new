@@ -39,7 +39,8 @@ UPDATE_PACKAGE "luci-app-gecoosac" "lwb1978/openwrt-gecoosac" "main"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "luci-app-wolplus" "VIKINGYFY/luci-app-wolplus" "main"
 UPDATE_PACKAGE "luci-app-adguardhome" "kenzok8/openwrt-packages" "master"
-UPDATE_PACKAGE "luci-app-filebrowser" "tcsr200722/luci-app-filebrowser" "main"
+#UPDATE_PACKAGE "luci-app-filebrowser" "tcsr200722/luci-app-filebrowser" "main"
+UPDATE_PACKAGE "luci-app-filebrowser" "sbwml/openwrt-filebrowser" "master"
 
 if [[ $WRT_REPO == *"openwrt-6.x"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
