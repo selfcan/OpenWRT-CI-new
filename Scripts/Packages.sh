@@ -67,6 +67,8 @@ UPDATE_PACKAGE "luci-app-wol" "VIKINGYFY/packages" "main" "pkg"
 UPDATE_PACKAGE "luci-app-gecoosac" "lwb1978/openwrt-gecoosac" "main"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
+UPDATE_PACKAGE "luci-app-adguardhome" "sirpdboy/sirpdboy-package" "main" "pkg"
+
 UPDATE_PACKAGE "lazyoop" "lazyoop/networking-artifact" "main"
 
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
