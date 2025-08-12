@@ -72,6 +72,7 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-ap
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "luci-app-adguardhome" "sirpdboy/luci-app-adguardhome" "js"
 UPDATE_PACKAGE "luci-app-quickfile" "sbwml/luci-app-quickfile" "main"
+UPDATE_PACKAGE "luci-app-oaf" "sbwml/luci-app-oaf" "v6"
 
 #更新软件包版本
 UPDATE_VERSION() {
