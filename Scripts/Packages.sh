@@ -79,6 +79,7 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "qosmate" "hudra0/luci-app-qosmate" "main"
 UPDATE_PACKAGE "luci-app-qosmate" "hudra0/qosmate" "main"
 UPDATE_PACKAGE "luci-app-internet-detector" "waynesg/luci-app-internet-detector" "master"
+UPDATE_PACKAGE "luci-app-adguardhome" "kenzok78/luci-app-adguardhome" "main"
 
 #更新软件包版本
 UPDATE_VERSION() {
