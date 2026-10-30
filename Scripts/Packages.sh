@@ -95,6 +95,7 @@ UPDATE_PACKAGE "qmodem-generic" "LianXia233/luci-app-qmodem-generic" "main"
 UPDATE_PACKAGE "mesh" "xxosdev/luci-app-mesh" "main"
 UPDATE_PACKAGE "qosmate" "hudra0/qosmate" "main"
 UPDATE_PACKAGE "luci-app-qosmate" "hudra0/luci-app-qosmate" "main"
+UPDATE_PACKAGE "luci-app-timecontrol" "gaobin89/luci-app-timecontrol" "js"
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
