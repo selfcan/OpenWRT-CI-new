@@ -96,6 +96,7 @@ UPDATE_PACKAGE "mesh" "xxosdev/luci-app-mesh" "main"
 UPDATE_PACKAGE "qosmate" "hudra0/qosmate" "main"
 UPDATE_PACKAGE "luci-app-qosmate" "hudra0/luci-app-qosmate" "main"
 UPDATE_PACKAGE "luci-app-timecontrol" "gaobin89/luci-app-timecontrol" "js"
+UPDATE_PACKAGE "luci-app-adguardhome" "kenzok78/luci-app-adguardhome" "main"
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
